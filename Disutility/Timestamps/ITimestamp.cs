@@ -9,6 +9,7 @@ namespace DiscordUtilities.Timestamps {
         string GetRelative(DateTimeOffset timestamp);
         string GetRelative(DateTime timestamp);
         string GetRelative();
+        string GetAbsolute(ETimestampVariant timestampVariant);
         string GetAbsolute(DateTime timestamp, ETimestampVariant timestampVariant);
     }
 }
