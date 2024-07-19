@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Disutility.OAuth2 {
+namespace Disutility.Internal.JSON {
     /// <summary>
     /// Class representing a discord guild.
     /// </summary>
-    public class Guild {
+    internal class Guild {
         /// <summary>
         /// The id of the guild (technically a snowflake)
         /// </summary>
